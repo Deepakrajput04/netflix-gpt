@@ -1,11 +1,7 @@
 import MovieCard from './MovieCard'
 
 const MovieList = ({ title, movies  }) => {
-  console.log('movies', movies)
-//   // Ensure there are movies to display
-//   if (movies === null) {
-//     return null // Return null if there are no movies
-//   }
+  // console.log('movies', movies)
 
   return (
     <div className='px-6 '>

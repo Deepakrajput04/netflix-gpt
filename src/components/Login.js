@@ -8,6 +8,7 @@ import {
 import { auth } from '../utils/firebase'
 import { useNavigate } from 'react-router-dom'
 import { updateProfile } from "firebase/auth";
+import { BG_image } from '../utils/constant'
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true)
@@ -81,7 +82,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/IN-en-20241230-TRIFECTA-perspective_5ab944a5-1a71-4f6d-b341-8699d0491edd_large.jpg"
+          src={BG_image}
           alt="logo"
         />
       </div>
